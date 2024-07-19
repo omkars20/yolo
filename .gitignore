@@ -1,0 +1,15 @@
+# Ignore dataset directories and files
+train/
+valid/
+coco_dataset_example/
+yolov5su.pt
+
+# Ignore specific files in the coco_dataset_example directory
+xml_to_yolo/coco_dataset_example/images/
+xml_to_yolo/coco_dataset_example/labels_yolo/
+xml_to_yolo/coco_dataset_example/lables/
+
+# Ignore Python cache directories
+__pycache__/
+vehicle_dataset/src/__pycache__/
+
